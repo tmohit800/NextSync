@@ -5,7 +5,7 @@ html, body {
 }
 
 //flex properties
-.displayFlex {
+.display-flex {
     display: flex;
 
     &.flex-column {
@@ -34,6 +34,10 @@ html, body {
 
     &.justify-content-end {
         justify-content: end;
+    }
+
+    &.gap-15 {
+        gap: 15px !important;
     }
 }
 
